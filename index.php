@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section>
+        <header>
+            <div class="circle"></div>
+            <div class="circles"></div>
+            <a href="#" class="logo">ESRI-<span>digitaal</span></a>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="register.php">Contact</a></li>
+            </ul>
+         <a href="Sign up.php"><p>Sign up</p></a>
+        </header>
+
+        <div class="texts">
+            <h1>ESRI <span>Winkel</span></h1>
+            <p>Welkom op onze website. Wat doen wij? Wij verkopen digitale kaarten. Playstation kaarten, <br>
+                Xbox Kaarten
+            </p>
+        </div>
+
+        <div class="background_image">
+            <img src="image/esri-digitaal.png">
+        </div>
+
+        <div class="btn">
+            <p class="read">Read More</p>
+            <p>Shop Now</p>
+        </div>
+    </section>
+
+
+    <div class="about">
+        <div class="box">
+            <div class="card">
+                <img src="image/ps kaart.jpg">
+            </div>
+            <div class="card">
+                <img src="image/Xbox kaart.png">
+            </div>
+            <div class="card">
+                <img src="image/paysafe.png">
+            </div>
+            <div class="card">
+                <img src="image/download.jpeg">
+            </div>
+            <div class="card">
+                <img src="image/amazon-gift-card-25-usd-65305.png">
+            </div>
+        </div>
+        <hr>
+
+        <div class="Cards">
+            <h1>Products</h1>
+            <p>----Trending Aankopen----</p>
+            <div class="cards_box">
+                <div class="cards_card">
+                    <img src="image/ps kaart.jpg">
+                    <h1>Ps Card €10</h1>
+                    <p>
+                        Een Playstation kaart met een tegoed erop van $10. Kan worden <br>
+                        gebruikt voor het kopen van spellen en in-game aankopen, <br>
+                        of als een cadeau voor vrienden en familie
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                <div class="cards_card">
+                    <img src="image/PS kaart 20.webp">
+                    <h1>Ps Card €20</h1>
+                    <p>
+                    Een Playstation kaart met een tegoed erop van $20. Kan worden <br>
+                        gebruikt voor het kopen van spellen en in-game aankopen, <br>
+                        of als een cadeau voor vrienden en familie
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                <div class="cards_card">
+                    <img src="image/ps kaart 50.png">
+                    <h1>Ps Card €50</h1>
+                    <p>
+                    Een Playstation kaart met een tegoed erop van $50. Kan worden <br>
+                        gebruikt voor het kopen van spellen en in-game aankopen, <br>
+                        of als een cadeau voor vrienden en familie
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                <div class="cards_card">
+                    <img src="image/ps kaart 100.png">
+                    <h1>Ps Card €100</h1>
+                    <p>
+                    Een Playstation kaart met een tegoed erop van $100. Kan worden <br>
+                        gebruikt voor het kopen van spellen en in-game aankopen, <br>
+                        of als een cadeau voor vrienden en familie
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="Food">
+            <p>----Acties----</p>
+            <div class="food_box">
+                <div class="food_card">
+                    <img src="image/PS kaart 20.webp" height="250px" width="150px">
+                    <h1>Ps kaart</h1>
+                    <p>
+                        Contrary to popular belief, Lorem Ipsum is not simply random text. 
+                        It has roots in a piece of classical Latin literature from 45 BC, 
+                        making it over 2000 years old.
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="food_card">
+                    <img src="image/Xbox kaart.png" height="250px" width="150px">
+                    <h1>Xbox kaart</h1>
+                    <p>
+                        Contrary to popular belief, Lorem Ipsum is not simply random text. 
+                        It has roots in a piece of classical Latin literature from 45 BC, 
+                        making it over 2000 years old.
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="food_card">
+                    <img src="image/amazon-gift-card-25-usd-65305.png">
+                    <h1>Amazon kaart</h1>
+                    <p>
+                        Contrary to popular belief, Lorem Ipsum is not simply random text. 
+                        It has roots in a piece of classical Latin literature from 45 BC, 
+                        making it over 2000 years old.
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="food_card">
+                    <img src="image/download.jpeg" height="275px" width="1000px">
+                    <h1>Nintendo kaart</h1>
+                    <p>
+                        Contrary to popular belief, Lorem Ipsum is not simply random text. 
+                        It has roots in a piece of classical Latin literature from 45 BC, 
+                        making it over 2000 years old.
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="main">
+            <div class="row">
+                <div class="footer_col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer_col">
+                    <h4>Get Help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shiping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer_col">
+                    <h4>Online</h4>
+                    <ul>
+                        <li><a href="#">watch</a></li>
+                        <li><a href="#">bag</a></li>
+                        <li><a href="#">shoes</a></li>
+                        <li><a href="#">dress</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer_col">
+                    <h4>Follower us</h4>
+                    <div class="social">
+                        <a href="#"><img src="image/facebook.png"></a>
+                        <a href="#"><img src="image/Googlell.png"></a>
+                        <a href="#"><img src="image/twitter.png"></a>
+                        <a href="#"><img src="image/instagram.png"></a>
+                    </div>               
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
